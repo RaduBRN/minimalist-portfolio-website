@@ -11,6 +11,7 @@ import { useParams } from "next/navigation";
 export default function PortfolioItemPage() {
   const params = useParams();
   const { id } = params;
+  const windowType = useWindowType();
 
   const project = data.find((item) => item.id.toString() === id);
 
@@ -21,8 +22,6 @@ export default function PortfolioItemPage() {
       </section>
     );
   }
-
-  const windowType = useWindowType();
 
   const returnImgToken = () => {
     if (windowType === "mobile") {
