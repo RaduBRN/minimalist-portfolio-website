@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor]()
-- Live Site URL: [netlify]()
+- Solution URL: [frontendmentor](https://www.frontendmentor.io/solutions/responsive-minimum-portfolio-website-FqAtkKyCr_)
+- Live Site URL: [netlify](https://spectacular-choux-31456d.netlify.app/)
 
 ### Built with
 
