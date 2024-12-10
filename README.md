@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Minimalist portfolio website solution
 
-## Getting Started
+This is a solution to the [Minimalist portfolio website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/minimalist-portfolio-website-LMy-ZRyiE). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+### The challenge
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Users should be able to:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
+- Click the "About Me" call-to-action on the homepage and have the screen scroll down to the next section
+- Receive an error message when the contact form is submitted if:
+  - The `Name`, `Email Address` or `Message` fields are empty should show "This field is required"
+  - The `Email Address` is not formatted correctly should show "Please use a valid email address"
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Screenshot
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![](./project-screenshot.png)
 
-## Learn More
+### Links
 
-To learn more about Next.js, take a look at the following resources:
+- Solution URL: [frontendmentor]()
+- Live Site URL: [netlify]()
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Built with
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js](https://nextjs.org/) - React framework
+- [Formik](https://formik.org/) - React form library
+- [Yup](https://github.com/jquense/yup) - JavaScript schema validation
+- [Tailwind CSS](https://tailwindcss.com/) - For styles

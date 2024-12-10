@@ -1,21 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  h1 {
+    @apply font-ibarra font-bold text-[40px] lg:text-[50px] leading-[42px] lg:leading-[50px] tracking-[-0.36px] lg:tracking-[-0.45px];
+    letter-spacing: -0.45px;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  h2 {
+    @apply font-ibarra font-bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+  }
+
+  h3 {
+    @apply font-public;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.29px;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .body1 {
+    @apply font-public;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .body2 {
+    @apply font-public;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+  }
 }
